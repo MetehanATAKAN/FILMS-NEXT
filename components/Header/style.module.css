@@ -1,0 +1,10 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+    .logo {
+        font-size: 24px;
+    }
+}

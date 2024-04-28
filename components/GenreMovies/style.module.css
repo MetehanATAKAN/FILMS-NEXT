@@ -1,0 +1,25 @@
+.genre_movies {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.movie_card {
+    border: 1px solid rgb(66, 63, 63);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.image {
+  border-radius: 20px;
+}
+.img {
+    object-fit: cover;
+    border: 1px solid transparent;
+    border-radius: 20px 20px 0 0 ;
+}
+.movie_name {
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
